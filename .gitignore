@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+.python-version
+
+# ---- virtualenv ----
+.venv/
+venv/
+_buildvenv/
+env/
+
+# ---- PyInstaller build artifacts ----
+build/
+dist/
+*.spec
+# the icons we hand to PyInstaller must be ASCII-named copies
+_build_icon.ico
+icon.ico
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- scratch ----
+*.log
+~$*.xlsx
